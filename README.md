@@ -2,6 +2,16 @@
 
 This project is a small Streamlit dashboard for the BANA409 in-class group exercise. It uses the Kaggle [Advertising Dataset](https://www.kaggle.com/datasets/ashydv/advertising-dataset) and is designed for a marketing manager who needs a quick view of the relationship between advertising spend and sales. The project is presented as Team 12's work.
 
+**Live app:** [Advertising Budget & Sales Dashboard](https://advertising-budget-sales-dashboard-krxst6gxxdm8rz82cazvgf.streamlit.app/)
+
+## What the app shows
+
+- Three headline metrics: average sales, average total advertising spend, and the channel with the strongest historical correlation with sales.
+- A comparison of sales correlations for TV, Radio, and Newspaper advertising.
+- A channel selector that updates a scatter plot and a simple fitted trend line.
+
+The trend line summarizes the historical observations; it is not a causal estimate or a sales forecast.
+
 ## Step 1: Dataset and decision-maker
 
 The dataset is a small CSV with 200 observations and four numeric columns:
